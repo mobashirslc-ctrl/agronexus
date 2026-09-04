@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --primary: #f5821f;
+  --primary-hover: #e06c08;
+  --primary-foreground: #ffffff;
+  --nav-bg: #1a3333;
+  --background: #f9f5ef;
+  --card: #ffffff;
+  --foreground: #1a1a1a;
+  --muted: #6b6b6b;
+  --border: #e8e0d4;
+  --badge-green: #2d8a4e;
+  --radius: 8px;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+*:hover {
+  scrollbar-color: #ccc transparent;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

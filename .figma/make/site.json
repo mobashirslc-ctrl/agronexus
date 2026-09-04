@@ -1,0 +1,10 @@
+{
+  "description": "This user-friendly B2C web application connects consumers with agro products, offering a clean and professional interface for easy browsing and purchasing.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
